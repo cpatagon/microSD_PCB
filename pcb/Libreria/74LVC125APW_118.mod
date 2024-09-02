@@ -1,0 +1,198 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+IC_74LVC125APW,118
+$EndINDEX
+$MODULE IC_74LVC125APW,118
+Po 0 0 0 15 00000000 00000000 ~~
+Li IC_74LVC125APW,118
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -1.31 -4.385 1 1 0 0.05 N V 21 "IC_74LVC125APW,118"
+T1 -0.675 4.385 1 1 0 0.05 N V 21 "VAL**"
+DP 0 0 0 0 4 0 19
+Dl -3.55 -2.3
+Dl -2.3 -2.3
+Dl -2.3 -1.8
+Dl -3.55 -1.8
+DP 0 0 0 0 4 0 19
+Dl 2.3 -2.3
+Dl 3.55 -2.3
+Dl 3.55 -1.8
+Dl 2.3 -1.8
+DP 0 0 0 0 4 0 19
+Dl -3.55 1.8
+Dl -2.3 1.8
+Dl -2.3 2.3
+Dl -3.55 2.3
+DP 0 0 0 0 4 0 19
+Dl 2.3 1.8
+Dl 3.55 1.8
+Dl 3.55 2.3
+Dl 2.3 2.3
+DP 0 0 0 0 4 0 19
+Dl -3.55 -0.15
+Dl -2.3 -0.15
+Dl -2.3 0.15
+Dl -3.55 0.15
+DP 0 0 0 0 4 0 19
+Dl -3.55 -0.8
+Dl -2.3 -0.8
+Dl -2.3 -0.5
+Dl -3.55 -0.5
+DP 0 0 0 0 4 0 19
+Dl -3.55 -1.45
+Dl -2.3 -1.45
+Dl -2.3 -1.15
+Dl -3.55 -1.15
+DP 0 0 0 0 4 0 19
+Dl -3.55 0.5
+Dl -2.3 0.5
+Dl -2.3 0.8
+Dl -3.55 0.8
+DP 0 0 0 0 4 0 19
+Dl -3.55 1.15
+Dl -2.3 1.15
+Dl -2.3 1.45
+Dl -3.55 1.45
+DP 0 0 0 0 4 0 19
+Dl 2.3 -0.15
+Dl 3.55 -0.15
+Dl 3.55 0.15
+Dl 2.3 0.15
+DP 0 0 0 0 4 0 19
+Dl 2.3 -0.8
+Dl 3.55 -0.8
+Dl 3.55 -0.5
+Dl 2.3 -0.5
+DP 0 0 0 0 4 0 19
+Dl 2.3 -1.45
+Dl 3.55 -1.45
+Dl 3.55 -1.15
+Dl 2.3 -1.15
+DP 0 0 0 0 4 0 19
+Dl 2.3 0.5
+Dl 3.55 0.5
+Dl 3.55 0.8
+Dl 2.3 0.8
+DP 0 0 0 0 4 0 19
+Dl 2.3 1.15
+Dl 3.55 1.15
+Dl 3.55 1.45
+Dl 2.3 1.45
+DS -2.2 -2.5 2.2 -2.5 0.127 27
+DS 2.2 -2.5 2.2 2.5 0.127 27
+DS 2.2 2.5 -2.2 2.5 0.127 27
+DS -2.2 2.5 -2.2 -2.5 0.127 27
+DS -1.93 -2.5 1.93 -2.5 0.127 21
+DS -1.93 2.5 1.93 2.5 0.127 21
+DS -3.85 -2.75 -3.85 2.75 0.05 26
+DS -3.85 2.75 3.85 2.75 0.05 26
+DS 3.85 2.75 3.85 -2.75 0.05 26
+DS 3.85 -2.75 -3.85 -2.75 0.05 26
+DC -4.195 -2.207 -4.095 -2.207 0.2 21
+DC -4.195 -2.207 -4.095 -2.207 0.2 27
+$PAD
+Sh "1" R 1.35 0.6 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po -2.925 -2.05
+$EndPAD
+$PAD
+Sh "14" R 1.35 0.6 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po 2.925 -2.05
+$EndPAD
+$PAD
+Sh "7" R 1.35 0.6 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po -2.925 2.05
+$EndPAD
+$PAD
+Sh "8" R 1.35 0.6 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po 2.925 2.05
+$EndPAD
+$PAD
+Sh "4" R 1.35 0.4 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po -2.925 0
+$EndPAD
+$PAD
+Sh "3" R 1.35 0.4 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po -2.925 -0.65
+$EndPAD
+$PAD
+Sh "2" R 1.35 0.4 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po -2.925 -1.3
+$EndPAD
+$PAD
+Sh "5" R 1.35 0.4 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po -2.925 0.65
+$EndPAD
+$PAD
+Sh "6" R 1.35 0.4 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po -2.925 1.3
+$EndPAD
+$PAD
+Sh "11" R 1.35 0.4 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po 2.925 0
+$EndPAD
+$PAD
+Sh "12" R 1.35 0.4 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po 2.925 -0.65
+$EndPAD
+$PAD
+Sh "13" R 1.35 0.4 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po 2.925 -1.3
+$EndPAD
+$PAD
+Sh "10" R 1.35 0.4 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po 2.925 0.65
+$EndPAD
+$PAD
+Sh "9" R 1.35 0.4 0 0 0
+At SMD N 00808000
+.SolderMask 0
+Ne 0 ""
+Po 2.925 1.3
+$EndPAD
+$EndMODULE IC_74LVC125APW,118

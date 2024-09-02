@@ -8,6 +8,10 @@ En este directorio debería ir:
 
 ## PCB.
 
+[Carpeta PCB](MicroSD)
+
 ## Modelos  3D.
 
 ## Bibliotecas de símbolos y huellas externas (si son necesarios).
+
+[libreria](Libreria)
