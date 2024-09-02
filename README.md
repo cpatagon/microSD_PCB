@@ -1,39 +1,39 @@
-## Trabajo práctico final de la asignatura DCI ##
-Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
+# Diseño de Circuito Impreso para Conexión con microSD
 
+## Trabajo Práctico Final - Diseño de Circuitos Impresos (DCI)
 
-## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos, parte de la carrera de posgrado en FIUBA.
 
-## Estructura del TP FINAL ##
+**Autor:** Luis Gómez  
+**Título del Trabajo:** Diseño de Circuito Impreso para Conexión con microSD  
+**Descripción:** El proyecto consiste en diseñar una PCB para un conector microSD utilizando KiCad. El objetivo es desarrollar un esquema que incorpore el conector microSD con la correcta asignación de pines para alimentación y comunicación. Posteriormente, se optimizará el diseño de la PCB para asegurar un trazado eficiente de las señales. Finalmente, se generarán los archivos Gerber necesarios para la fabricación de la PCB, fomentando habilidades en el diseño y preparación de circuitos impresos para la producción.
 
-Se propone y se pide utilizar la siguiente estructura.
+## Licencia
 
-* doc: Toda la información sobre el circuito, principalmente de autoría o procesamiento propio. Por ejemplo:
-  * Notas de ingeniería propias.
-  * Notas de aplicación propias.
-  * Estudios previos, estado del arte, resumen de las investigaciones.
-  * Notas con cálculos.
-  * Dibujos adicionales.
-  * Fotos de los prototipos.
-  * Presupuestos, cotizaciones.
-* info: Toda la iformación recolectada, principalmente de terceros, como por ejemplo:
+Este trabajo se encuentra bajo la licencia de hardware abierto. **(Editar este párrafo para mencionar la licencia específica)**  
+Se debe incluir el archivo de texto de la licencia en el directorio raíz. Para más información sobre licencias de hardware abierto, consulta la sección ["What license should I use?"](https://www.oshwa.org/faq/).
+
+## Estructura del Trabajo Práctico Final
+
+Se recomienda utilizar la siguiente estructura:
+
+* **doc**: Información propia sobre el circuito, incluyendo:
+  * Notas de ingeniería.
+  * Notas de aplicación.
+  * Estudios previos y estado del arte.
+  * Cálculos y análisis.
+  * Dibujos adicionales y fotos de prototipos.
+  * Presupuestos y cotizaciones.
+
+* **info**: Información recopilada de fuentes externas, como:
   * Hojas de datos.
   * Notas de aplicación.
-  * Info de productos comerciales.
-  * Info en internet.
-* pcb: Archivos de diseño esquemático y pcb.
+  * Información de productos comerciales.
+  * Recursos de internet.
 
-Dependiendo la magnitud del proyecto, tendremos más o menos información en estos directorios. 
-Revisar los README.md en cada directorio para conocer las pautas de cada uno para este TP.
+* **pcb**: Archivos de diseño esquemático y de la PCB.
 
-NOTA: El alumno puede y debe borrar de este archivo todo lo que considere necesario, por ejemplo las aclaraciones del docente y esta misma nota.
+Dependiendo de la magnitud del proyecto, habrá más o menos información en estos directorios. Revisa los README.md en cada directorio para conocer las pautas específicas para este trabajo práctico.
 
-
+**Nota:** El alumno puede eliminar o modificar cualquier parte de este archivo, incluyendo las aclaraciones del docente y esta nota.
