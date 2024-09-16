@@ -28,7 +28,8 @@ En este directorio debería ir:
 
 
 #### huella
-![huella buffer](img/huella_AMS117.png)
+![huella buffer](img/huella_AMS117A.png)
+
 **Figura 5:** Huella AMS117 
 
 
