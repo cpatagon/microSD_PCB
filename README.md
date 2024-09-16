@@ -33,7 +33,12 @@ Se recomienda utilizar la siguiente estructura:
   * Recursos de internet.
 
 * **pcb**: Archivos de diseño esquemático y de la PCB.
+* [readme diseño PCB](.pcb/README.md)
+
 
 Dependiendo de la magnitud del proyecto, habrá más o menos información en estos directorios. Revisa los README.md en cada directorio para conocer las pautas específicas para este trabajo práctico.
+
+
+
 
 **Nota:** El alumno puede eliminar o modificar cualquier parte de este archivo, incluyendo las aclaraciones del docente y esta nota.
