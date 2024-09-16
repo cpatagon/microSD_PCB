@@ -7,6 +7,7 @@ En este directorio debería ir:
 
 ### Esquemático general PCB
 ![Esquema 1](img/esquema_microSD.png)
+
 **Figura 1:** Esquemátivo general de PCB de microSD 
 
 ### 74LVC125A
@@ -16,11 +17,13 @@ En este directorio debería ir:
 
 #### huella
 ![Esquema buffer](img/huella_74LVC125A.png)
+
 **Figura 3:** Huella integrado  74LVC125A 
 
 ### AMS117
 #### diagrama
 ![esquema buffer](img/esquematico_AMS117.png)
+
 **Figura 4:** Diagrama lógico AMS117 
 
 
