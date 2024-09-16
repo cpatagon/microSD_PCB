@@ -7,36 +7,55 @@ En este directorio debería ir:
 ## Esquemático y diagramas
 
 ### Esquemático general PCB
-![Esquema 1](img/esquema_microSD.png)
-**Figura 1:** Esquemático general de PCB de microSD 
 
 Representación completa del circuito de la PCB microSD, mostrando todas las conexiones y componentes principales, incluyendo el buffer 74LVC125A, el regulador AMS117, y el conector de la tarjeta microSD.
 
+![Esquema 1](img/esquema_microSD.png)
+**Figura 1:** Esquemático general de PCB de microSD 
+
+
+
 ### Integrado 74LVC125A
 #### Diagrama
-![Esquema buffer](img/diagrama_74LVC125A.png)
-**Figura 2:** Diagrama lógico 74LVC125A 
 
 Buffer cuádruple de tres estados con entradas tolerantes a 5V. Contiene cuatro buffers independientes con salidas de tres estados, útil para adaptar niveles lógicos y aislar señales en sistemas digitales.
 
+![Esquema buffer](img/diagrama_74LVC125A.png)
+
+**Figura 2:** Diagrama lógico 74LVC125A 
+
+
+
 #### Huella
-![Esquema buffer](img/huella_74LVC125A.png)
-**Figura 3:** Huella integrado 74LVC125A 
 
 Patrón de cobre en la PCB para soldar el chip 74LVC125A. Muestra la disposición de los pines y el área necesaria para el montaje del componente en la placa de circuito impreso.
 
-### Integrado AMS117
+![Esquema buffer](img/huella_74LVC125A.png)
+
+**Figura 3:** Huella integrado 74LVC125A 
+
+
+
+### Integrado AMS1117
 #### Diagrama
-![esquema buffer](img/esquematico_AMS117.png)
-**Figura 4:** Diagrama lógico AMS117 
 
 Regulador de voltaje lineal de baja caída. Capaz de proporcionar hasta 1A de corriente de salida con un voltaje de salida ajustable o fijo, comúnmente usado para regular 5V a 3.3V.
 
+![esquema buffer](img/esquematico_AMS117.png)
+
+**Figura 4:** Diagrama lógico AMS117 
+
+
+
 #### Huella
-![huella buffer](img/huella_AMS117A.png)
-**Figura 5:** Huella AMS117
 
 Patrón de cobre en la PCB para el montaje del regulador AMS117. Muestra la disposición de los pines de entrada, salida y ajuste, así como el área de disipación térmica necesaria.
+
+![huella buffer](img/huella_AMS1117.png)
+
+**Figura 5:** Huella AMS117
+
+
 
 
 ## PCB.
