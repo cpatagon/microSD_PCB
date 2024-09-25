@@ -2525,7 +2525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
 			(at 121.6152 90.17 0)
 			(effects
 				(font
@@ -3096,7 +3096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 102.87 113.538 90)
 			(effects
 				(font
@@ -3623,7 +3623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 177.8 136.398 90)
 			(effects
 				(font
@@ -3886,7 +3886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 102.87 128.778 90)
 			(effects
 				(font
@@ -4107,7 +4107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 102.87 121.158 90)
 			(effects
 				(font
