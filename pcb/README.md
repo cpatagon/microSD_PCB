@@ -56,13 +56,17 @@ Patrón de cobre en la PCB para el montaje del regulador AMS117. Muestra la disp
 **Figura 5:** Huella AMS117
 
 
-
-
 ## PCB.
 
 [Carpeta PCB](MicroSD)
 
 ## Modelos  3D.
+
+
+![Modelo 3D](img/MicroSD.png)
+
+
+**Figura 6:** Huella Modelo 3D
 
 ## Bibliotecas de símbolos y huellas externas (si son necesarios).
 
@@ -82,11 +86,11 @@ Patrón de cobre en la PCB para el montaje del regulador AMS117. Muestra la disp
 - **Curso CESE - PCB:** DCI24A
 
 ## Resumen del PCB
-- Cantidad de capas:
+- Cantidad de capas: 2
 - Terminación superficial:
-- Componentes de un lado o de ambos?
-- Componentes SMD, TH o mixto?
-- Serigrafía de 1 o de 2 caras?:
+- Componentes de un lado o de ambos? 1 lado
+- Componentes SMD, TH o mixto? Mixto
+- Serigrafía de 1 o de 2 caras?: 1 cara
 - Grillas que utilizó:
 - Valores de anchos de pistas que utilizó:
 - Vías/agujeros que utilizó (por ejemplo 1,0/0,5 mm es una vía de 1,0 mm de diámetro y 0,5 mm de agujero):
