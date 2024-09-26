@@ -305,13 +305,126 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3mm"
+		(layer "F.Cu")
+		(uuid "1394f53c-97e4-4827-a80f-93f808310b30")
+		(at 115 69)
+		(descr "Mounting Hole 3mm, no annular")
+		(tags "mounting hole 3mm no annular")
+		(property "Reference" "H1"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "23227e8d-00ee-4ebd-a96d-afb41d65858b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "b382b914-f001-4efe-b810-67642e56a89c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17439cfa-824a-44d9-a5ff-1e7120c59e33")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2c7e8b8-223a-4ff3-b8a9-23075f020203")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b203bd6a-e9bd-4afd-b4ad-22ec04d0ccf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/06f61908-1a32-4a2a-a090-3fe9655081dd")
+		(sheetname "Raíz")
+		(sheetfile "MicroSD.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "aa08c1bc-1c01-444b-a10d-139a1c0a3542")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "2b27c16d-937d-4237-917f-985c990bf38e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "2114b82c-762b-46f8-bf3f-fb45a4bdeef0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ef2bde04-277f-4eb0-ad36-b84bd6c1a0ac")
+		)
+	)
 	(footprint "Resistor_SMD:R_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "28c38033-604a-4a5a-9307-1cb6e01af1d2")
 		(at 136 91 180)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 0.155 1 180)
 			(layer "F.SilkS")
 			(uuid "2e1cbbe2-c782-42f0-8e2d-6b3e2b3b6603")
@@ -795,7 +908,7 @@
 		(at 127.82 91)
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "94d362c7-8e64-4dd9-8079-6eb18ce75528")
@@ -1206,7 +1319,7 @@
 	(footprint "Fiducial:Fiducial_1.5mm_Mask3mm"
 		(layer "F.Cu")
 		(uuid "5ec26ef3-8bff-4904-b1fe-8f32cbfdc428")
-		(at 118 77)
+		(at 130 115)
 		(descr "Circular Fiducial, 1.5mm bare copper, 3mm soldermask opening")
 		(tags "fiducial")
 		(property "Reference" "FID1"
@@ -1337,6 +1450,7 @@
 		(property "Value" "C"
 			(at -0.05 -3 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0fcd7987-a267-4e11-9c38-46221b0f9ddb")
 			(effects
 				(font
@@ -1530,16 +1644,16 @@
 			)
 		)
 	)
-	(footprint "Fiducial:Fiducial_1.5mm_Mask3mm"
+	(footprint "MountingHole:MountingHole_3mm"
 		(layer "F.Cu")
-		(uuid "86e44978-c74e-4962-8af0-dd884f3eb5c5")
-		(at 143 111.5)
-		(descr "Circular Fiducial, 1.5mm bare copper, 3mm soldermask opening")
-		(tags "fiducial")
-		(property "Reference" "FID4"
-			(at 0 -2.4765 0)
+		(uuid "99d15699-aa68-4fa5-867a-58c3fc6cd1ce")
+		(at 143.5 115.5)
+		(descr "Mounting Hole 3mm, no annular")
+		(tags "mounting hole 3mm no annular")
+		(property "Reference" "H4"
+			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "43d407be-0c0e-4397-8cdf-f906586c9403")
+			(uuid "81726dea-5b24-4df0-8487-d3c619b9722c")
 			(effects
 				(font
 					(size 1 1)
@@ -1547,10 +1661,10 @@
 				)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 0 2.6035 0)
+		(property "Value" "MountingHole"
+			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "e6551e57-e869-4ae3-8c1e-0cf82b357e04")
+			(uuid "87a7507f-c745-4af8-971b-aa6d288f11b3")
 			(effects
 				(font
 					(size 1 1)
@@ -1558,12 +1672,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+		(property "Footprint" "MountingHole:MountingHole_3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5e3c547-df77-42f3-b076-c5a3ff6c75da")
+			(uuid "13a57f37-09ee-4b3f-a0e6-ac129a3da577")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +1690,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "064f0e75-9c45-4acc-8c39-fd0aeca8ff06")
+			(uuid "767ee0c4-408f-463b-98a3-52f638347086")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,12 +1698,12 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa6ea9c5-3737-4802-a49c-c3e814c36843")
+			(uuid "60fe6061-3f53-422b-8524-29c1777d5e67")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,63 +1711,62 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Fiducial*")
-		(path "/60849ee8-baff-4b09-b78c-fb9bfd129ff3")
+		(property ki_fp_filters "MountingHole*")
+		(path "/72bc151b-5515-4530-80cb-135e796e336e")
 		(sheetname "Raíz")
 		(sheetfile "MicroSD.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 1.75 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "0cc38090-aa3f-47ee-87c1-37fe397b79ce")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "6b42ac1d-ca92-48ba-8f51-5309bcbe6240")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "926720e9-07b1-4b27-84f2-f087af175d06")
+			(uuid "5eccf1e4-ec9b-43e1-96b6-95b3a030a9b7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "94966a26-4866-47e0-bc92-e50d2adb506a")
+			(uuid "22cc0188-f219-4e28-b7c0-d51f743aa8bf")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(pad "" smd circle
+		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 1.5 1.5)
-			(layers "F.Cu" "F.Mask")
-			(solder_mask_margin 0.75)
-			(clearance 0.75)
-			(uuid "5899b3bc-46ba-4336-99f5-06a73f923d3e")
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "aefdfac2-7442-4060-a916-ba37ce4946b9")
 		)
 	)
-	(footprint "Fiducial:Fiducial_1.5mm_Mask3mm"
+	(footprint "MountingHole:MountingHole_3mm"
 		(layer "F.Cu")
-		(uuid "93e650d1-1478-4f6b-9452-20f217fc3e87")
-		(at 143 77)
-		(descr "Circular Fiducial, 1.5mm bare copper, 3mm soldermask opening")
-		(tags "fiducial")
-		(property "Reference" "FID2"
-			(at 0 -2.4765 0)
+		(uuid "acfc6fe4-bae4-46f8-8110-4e0d51792aaf")
+		(at 115.5 115.5)
+		(descr "Mounting Hole 3mm, no annular")
+		(tags "mounting hole 3mm no annular")
+		(property "Reference" "H3"
+			(at 0 -4 0)
 			(layer "F.SilkS")
-			(uuid "19e88219-ce74-48f8-9de0-72ac58836aed")
+			(uuid "8e5dfe90-8fe4-4506-9aac-0aec7c86d346")
 			(effects
 				(font
 					(size 1 1)
@@ -1661,10 +1774,10 @@
 				)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 0 2.6035 0)
+		(property "Value" "MountingHole"
+			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "d837bacd-affa-455a-ae6d-63c59c3ca7d8")
+			(uuid "bce59e8e-1f2c-4565-baaf-f469c4a492f1")
 			(effects
 				(font
 					(size 1 1)
@@ -1672,12 +1785,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+		(property "Footprint" "MountingHole:MountingHole_3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff0e00af-2b37-4b5e-8ce9-783542b06451")
+			(uuid "db834286-61b3-4a05-9f32-0798acb77536")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1803,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9b818f6-9d76-458a-8c44-9260b505e055")
+			(uuid "d39d64f2-f048-48fa-afba-ec6ffa54becd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,12 +1811,12 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "90566c24-ad94-4527-8d0c-b7c0257c3a26")
+			(uuid "bc1dcad7-7efc-4ec5-a3b9-2dd3eea14210")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,51 +1824,50 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Fiducial*")
-		(path "/4bf10d8f-0a47-4d65-b4d1-3d34beed0ba2")
+		(property ki_fp_filters "MountingHole*")
+		(path "/00f3049b-6be2-4b19-ac92-d13ef227de59")
 		(sheetname "Raíz")
 		(sheetfile "MicroSD.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
-			(end 1.75 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "a0436b5e-40e8-455c-b3c6-776f8fe4c4c1")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "86a342ad-1ecd-4357-83d2-624019d503e4")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "aab783c4-c348-49d4-893e-f65c6152b7b3")
+			(uuid "89cfdf14-f499-4c49-9d09-e30c68c746df")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "26a93f41-f3d1-441f-8532-ad38a0a0fa5e")
+			(uuid "3f8200ee-8fe1-4d9a-ae5d-08a90d86911e")
 			(effects
 				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(pad "" smd circle
+		(pad "" np_thru_hole circle
 			(at 0 0)
-			(size 1.5 1.5)
-			(layers "F.Cu" "F.Mask")
-			(solder_mask_margin 0.75)
-			(clearance 0.75)
-			(uuid "ca2adaf7-2613-4729-8902-d570bf9fc0ea")
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1b54d1df-dc35-42a7-b875-f92f8c13ac8c")
 		)
 	)
 	(footprint "Connector_Card:microSD_HC_Hirose_DM3D-SF"
@@ -1765,7 +1877,7 @@
 		(descr "Micro SD, SMD, right-angle, push-pull (https://media.digikey.com/PDF/Data%20Sheets/Hirose%20PDFs/DM3D-SF.pdf)")
 		(tags "Micro SD")
 		(property "Reference" "J1"
-			(at -7.525 -0.05 360)
+			(at -7.525 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "443e36cf-2ad8-41d3-bdde-0b8520d88f23")
 			(effects
@@ -1776,7 +1888,7 @@
 			)
 		)
 		(property "Value" "Micro_SD_Card"
-			(at 7.975 -3.55 360)
+			(at 7.975 -3.55 0)
 			(layer "F.Fab")
 			(uuid "2f28741a-7403-4f68-b8a8-2a456af3db02")
 			(effects
@@ -2348,6 +2460,119 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3mm"
+		(layer "F.Cu")
+		(uuid "bac60679-919c-457e-b280-f0da889beb15")
+		(at 143 69.5)
+		(descr "Mounting Hole 3mm, no annular")
+		(tags "mounting hole 3mm no annular")
+		(property "Reference" "H2"
+			(at 0 -4 0)
+			(layer "F.SilkS")
+			(uuid "5fc97c93-41f6-4af1-86a3-0f6f6cf2b6b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 4 0)
+			(layer "F.Fab")
+			(uuid "637fb0e0-8edd-4cd3-bf95-b9ff41dc2cda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3b15e1f-a524-4a91-bad8-32ae11b3bac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45c1e7b9-9370-4e50-9cbd-309035b60869")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57c904e4-aec4-4960-8c5f-1358ea92d3c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/7ba536df-ec48-4d48-9a83-9be2b9e212f2")
+		(sheetname "Raíz")
+		(sheetfile "MicroSD.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 3 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "3854f982-95af-473a-8d93-34fec276bb37")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "3f8df892-3ce0-458a-b15a-446a37ebcc69")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1e7dad62-cca3-43f7-9963-9e03174b8178")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(uuid "898658d5-e4de-438b-8fc1-88bdaf18271b")
+		)
+	)
 	(footprint "Package_TO_SOT_SMD:SOT-1334-1"
 		(layer "F.Cu")
 		(uuid "c14fdcbd-4f4a-4ac9-9251-6a85584dc482")
@@ -2355,7 +2580,7 @@
 		(descr "SOT-1334-1")
 		(tags "SOT-1334-1")
 		(property "Reference" "U1"
-			(at -0.25 -2.5 360)
+			(at -0.25 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "c107b28d-5c16-46cf-adec-f1dd99396b73")
 			(effects
@@ -2366,7 +2591,7 @@
 			)
 		)
 		(property "Value" "74LVC125A"
-			(at 0.25 2.5 360)
+			(at 0.25 2.5 0)
 			(layer "F.Fab")
 			(uuid "d2d6c729-9bbf-4ae6-acaa-72523b2815e3")
 			(effects
@@ -2711,7 +2936,7 @@
 			(uuid "a5ab951c-e8b3-436b-a530-ac03a4e32f2d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.25 -2.5 360)
+			(at -0.25 -2.5 0)
 			(layer "F.Fab")
 			(uuid "c83d6bb1-b486-419f-8c08-2878a2e29e9d")
 			(effects
@@ -2873,120 +3098,6 @@
 			)
 		)
 	)
-	(footprint "Fiducial:Fiducial_1.5mm_Mask3mm"
-		(layer "F.Cu")
-		(uuid "e30457b5-5758-49fb-be7a-816e6eca9616")
-		(at 117.5 112.045)
-		(descr "Circular Fiducial, 1.5mm bare copper, 3mm soldermask opening")
-		(tags "fiducial")
-		(property "Reference" "FID3"
-			(at 0 -2.4765 0)
-			(layer "F.SilkS")
-			(uuid "2b4e337a-e7d4-4ad4-b607-4fe46c77eca8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Fiducial"
-			(at 0 2.6035 0)
-			(layer "F.Fab")
-			(uuid "bfb21d3f-9952-4095-8c9d-4d2e591826e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8e7a1624-0eaa-4879-9e1d-396b30a46dd7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09c5608e-c22c-4267-b2cb-17eb8b2524bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "29b460dc-5ba7-4c5f-a93e-6c7822902418")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Fiducial*")
-		(path "/153c0faf-3a4b-413a-a766-92aafbef19e8")
-		(sheetname "Raíz")
-		(sheetfile "MicroSD.kicad_sch")
-		(attr smd exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 1.75 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "3f37752d-580f-48db-bf5c-6a0b590ccde7")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1.5 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.Fab")
-			(uuid "155263f9-b25b-4092-922b-e3aad1302894")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "1abbca14-8d07-42f8-bfda-54c0823bbdc5")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
-		(pad "" smd circle
-			(at 0 0)
-			(size 1.5 1.5)
-			(layers "F.Cu" "F.Mask")
-			(solder_mask_margin 0.75)
-			(clearance 0.75)
-			(uuid "46c634ae-65be-433c-9c63-e5d32fe747c7")
-		)
-	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ff5bd6eb-15fc-4e9b-90cb-95708c0c39ce")
@@ -2994,7 +3105,7 @@
 		(descr "Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x07 2.54mm single row")
 		(property "Reference" "J2"
-			(at 3 7.66 360)
+			(at 3 7.66 0)
 			(layer "F.SilkS")
 			(uuid "d46d3c37-f390-427b-8e02-af44180f2b88")
 			(effects
@@ -3005,7 +3116,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_MountingPin"
-			(at -3 8.16 360)
+			(at -3 8.16 0)
 			(layer "F.Fab")
 			(uuid "dc6bd2a2-1d5e-4cae-b91b-a2b6c3c2f2f5")
 			(effects
@@ -3210,7 +3321,7 @@
 			(uuid "03634859-6812-4b10-8589-a91d4a0c52e0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 7.62 360)
+			(at 0 7.62 0)
 			(layer "F.Fab")
 			(uuid "32f1976f-be79-46ba-9626-e5c0f79a2823")
 			(effects
