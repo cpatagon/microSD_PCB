@@ -1,0 +1,38 @@
+** Drc report for MicroSD.kicad_pcb **
+** Created on 2024-10-09T11:34:44-0300 **
+
+** Found 7 DRC violations **
+[clearance]: Infracción de margen (mínimo de placa margen 0,2500 mm; real 0,2200 mm)
+    Local override; error
+    @(156,1000 mm, 102,0000 mm): Pista [GND] en (B.Cu), longitud 7,3200 mm
+    @(155,2800 mm, 106,2400 mm): Vía [Net-(R4-Pad1)] en F.Cu - B.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,2500 mm; real 0,2000 mm)
+    Local override; error
+    @(153,0000 mm, 99,1500 mm): Pista [Net-(R2-Pad2)] en (F.Cu), longitud 9,5000 mm
+    @(152,2250 mm, 106,9500 mm): Vía [GND] en F.Cu - B.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,2500 mm; real 0,2000 mm)
+    Local override; error
+    @(153,9000 mm, 100,0600 mm): Pista [Net-(R3-Pad2)] en (F.Cu), longitud 11,2400 mm
+    @(154,5750 mm, 104,5000 mm): Vía [Net-(J1-DAT0)] en F.Cu - B.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,2500 mm; real 0,2000 mm)
+    Local override; error
+    @(155,2500 mm, 106,2100 mm): Pista [Net-(R4-Pad1)] en (B.Cu), longitud 5,8900 mm
+    @(154,5750 mm, 104,5000 mm): Vía [Net-(J1-DAT0)] en F.Cu - B.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,2500 mm; real 0,2000 mm)
+    Local override; error
+    @(134,3500 mm, 101,9500 mm): Pista [GND] en (B.Cu), longitud 4,7000 mm
+    @(135,1000 mm, 105,5500 mm): Vía [Net-(J1-DAT0)] en F.Cu - B.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,2500 mm; real 0,2300 mm)
+    Local override; error
+    @(148,8100 mm, 96,5600 mm): Pista [VDD] en (B.Cu), longitud 4,1500 mm
+    @(150,3700 mm, 97,3900 mm): Vía [Net-(R4-Pad1)] en F.Cu - B.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,2500 mm; real 0,2000 mm)
+    Local override; error
+    @(132,6000 mm, 104,4500 mm): Pad 8 [unconnected-(J1-DAT1-Pad8)] de J1 en F.Cu
+    @(132,7250 mm, 103,2500 mm): Pad 11 [<no net>] de J1 en F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

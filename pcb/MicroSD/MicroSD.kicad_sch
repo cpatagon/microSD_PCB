@@ -5,12 +5,13 @@
 	(uuid "ead9c42e-d949-4523-ac5b-3e09aafd746b")
 	(paper "A4")
 	(title_block
-		(title "Proyecto Final MicroUSB")
+		(title "Réplica PCB de conector para microSD")
 		(date "2024-09-01")
 		(rev "0.1")
 		(company "CESE")
 		(comment 1 "autor:  Luis Gómez")
-		(comment 2 "descripción: Esquemático memoria externa microSD")
+		(comment 2 "descripción: Esquemático para lector escritor de memoria externa microSD (réplica))")
+		(comment 3 "licencia: GPL")
 	)
 	(lib_symbols
 		(symbol "74xx:74LVC125"
@@ -2562,6 +2563,36 @@
 		)
 		(uuid e68e39fa-c358-43ad-9d1f-a215d76e7bc3)
 	)
+	(text "VDD"
+		(exclude_from_sim no)
+		(at 45.974 58.166 90)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "0bca3d31-8a83-4b81-a93a-40806d2a8194")
+	)
+	(text "CLK"
+		(exclude_from_sim no)
+		(at 38.354 58.166 90)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "0d907549-f168-4e59-9b47-0657cc43a375")
+	)
+	(text "MISO"
+		(exclude_from_sim no)
+		(at 43.434 58.42 90)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "1e3dd993-31e4-4095-88da-db662337d653")
+	)
 	(text "Fiduciales"
 		(exclude_from_sim no)
 		(at 29.972 171.45 0)
@@ -2582,6 +2613,36 @@
 			(justify left)
 		)
 		(uuid "663d059e-c88d-40ca-9d47-7876f20a6cea")
+	)
+	(text "MOSI"
+		(exclude_from_sim no)
+		(at 40.894 58.42 90)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "72db09f1-5296-4f08-bb0a-6e98c2cf07e1")
+	)
+	(text "CS"
+		(exclude_from_sim no)
+		(at 36.068 57.658 90)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "b295989f-3e7c-48e7-ab9f-dcef76c4dac8")
+	)
+	(text "GND\n"
+		(exclude_from_sim no)
+		(at 48.514 58.166 90)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+		)
+		(uuid "b3da98a0-9c52-4987-8b1b-6a5b62ed5d0f")
 	)
 	(text "Socket \nMemoria \nmicroSD"
 		(exclude_from_sim no)
@@ -2999,6 +3060,70 @@
 			(project "MicroSD"
 				(path "/ead9c42e-d949-4523-ac5b-3e09aafd746b"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 40.64 180.34 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2385b559-da3e-4b1e-9038-24fe1d601dc8")
+		(property "Reference" "FID2"
+			(at 43.18 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 43.18 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1.5mm_Mask3mm"
+			(at 40.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 40.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "MicroSD"
+				(path "/ead9c42e-d949-4523-ac5b-3e09aafd746b"
+					(reference "FID2")
 					(unit 1)
 				)
 			)
@@ -4195,7 +4320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Wuerth_693072010801"
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3D-SF"
 			(at 270.51 106.68 0)
 			(effects
 				(font

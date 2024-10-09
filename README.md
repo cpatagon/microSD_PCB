@@ -1,4 +1,3 @@
-
 # Diseño de Circuito Impreso para Conexión con microSD
 
 ## Trabajo Práctico Final - Diseño de Circuitos Impresos (DCI)
