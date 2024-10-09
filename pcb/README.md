@@ -11,7 +11,7 @@ En este directorio debería ir:
 Representación completa del circuito de la PCB microSD, mostrando todas las conexiones y componentes principales, incluyendo el buffer 74LVC125A, el regulador AMS117, y el conector de la tarjeta microSD.
 
 ![Esquema 1](img/esquema_microSD.png)
-**Figura 1:** Esquemático general de PCB de microSD 
+**Figura 1:** Esquemático general de PCB de microSD para mas detalle ver  [link text](PDF/MicroSD.pdf)
 
 
 
@@ -28,11 +28,18 @@ Buffer cuádruple de tres estados con entradas tolerantes a 5V. Contiene cuatro 
 
 #### Huella
 
+Los distrintos patrones de cobre para soldar los componentes en la PCB se muestran en la figura 3
+
+![link text](img/MicroSD_huellas.png)
+
+**Figura 3:** Huellas de los distintos componentes en la placa PCB de la microSD diseñada. Mas informacion visitar Gerber: [link text](Gerber/MicroSD-F_Mask.pdf)
+
+
 Patrón de cobre en la PCB para soldar el chip 74LVC125A. Muestra la disposición de los pines y el área necesaria para el montaje del componente en la placa de circuito impreso.
 
 ![Esquema buffer](img/huella_74LVC125A.png)
 
-**Figura 3:** Huella integrado 74LVC125A 
+**Figura 4:** Huella integrado 74LVC125A 
 
 
 
@@ -43,7 +50,7 @@ Regulador de voltaje lineal de baja caída. Capaz de proporcionar hasta 1A de co
 
 ![esquema buffer](img/esquematico_AMS117.png)
 
-**Figura 4:** Diagrama lógico AMS117 
+**Figura 5:** Diagrama lógico AMS117 
 
 
 
@@ -58,6 +65,11 @@ Patrón de cobre en la PCB para el montaje del regulador AMS117. Muestra la disp
 
 ## PCB.
 
+Plano  de la placa PCB diseñada se puede ver en la Figura 6 
+
+![link text](img/PlanoPCBcompleto.png)
+**Figura 6:** Plano  de la placa PCB microSD
+
 [Carpeta PCB](MicroSD)
 
 ## Modelos  3D.
@@ -65,8 +77,7 @@ Patrón de cobre en la PCB para el montaje del regulador AMS117. Muestra la disp
 
 ![Modelo 3D](img/MicroSD.png)
 
-
-**Figura 6:** Huella Modelo 3D
+**Figura 7:** Huella Modelo 3D
 
 ## Bibliotecas de símbolos y huellas externas (si son necesarios).
 
