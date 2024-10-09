@@ -4,6 +4,10 @@ En este directorio debería ir:
 
 ## Archivos de proyecto.
 
+### Gerber
+
+[Enlace con archivos Gerber](Gerber)
+
 ## Esquemático y diagramas
 
 ### Esquemático general PCB
