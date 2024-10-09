@@ -115,7 +115,7 @@ Plano  de la placa PCB diseñada se puede ver en la Figura 6
 | PASA | Ítem | Comentarios | Se pide en la asignatura? |
 |------|------|-------------|---------------------------|
 | SI | Puso en el directorio /doc/propuesta las imágenes y pdfs del circuito original? Use la información que proporcionó en el formulario. | | SI |
-| ? | En el directorio /info colocó las hojas de datos de los chips más importantes del circuito? En particular es de interés la hoja de datos donde figuren los footprints. Como es un ejercicio, no coloque manuales extensos o archivos muy grandes. | | SI |
+| SI | En el directorio /info colocó las hojas de datos de los chips más importantes del circuito? En particular es de interés la hoja de datos donde figuren los footprints. Como es un ejercicio, no coloque manuales extensos o archivos muy grandes. | | SI |
 | SI | Organizó adecuadamente en directorios? Por ejemplo en el directorio del diseño KiCad solo puso los archivos KiCad o mezcló ahí hojas de datos y otros archivos? | | SI |
 
 ## Esquemático

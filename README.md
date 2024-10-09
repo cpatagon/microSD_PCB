@@ -10,8 +10,7 @@ Este repositorio contiene el trabajo práctico final para la asignatura de Dise�
 
 ## Licencia
 
-Este trabajo se encuentra bajo la licencia de hardware abierto. **(Editar este párrafo para mencionar la licencia específica)**  
-Se debe incluir el archivo de texto de la licencia en el directorio raíz. Para más información sobre licencias de hardware abierto, consulta la sección ["What license should I use?"](https://www.oshwa.org/faq/).
+Este trabajo se encuentra bajo la licencia de hardware abierto. GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 
 ## Estructura del Trabajo Práctico Final
 
