@@ -1,5 +1,7 @@
 # Diseño de Circuito Impreso para Conexión con microSD
 
+
+
 ## Trabajo Práctico Final - Diseño de Circuitos Impresos (DCI)
 
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos, parte de la carrera de posgrado en FIUBA.
@@ -7,6 +9,9 @@ Este repositorio contiene el trabajo práctico final para la asignatura de Dise�
 **Autor:** Luis Gómez  
 **Título del Trabajo:** Diseño de Circuito Impreso para Conexión con microSD  
 **Descripción:** El proyecto consiste en diseñar una PCB para un conector microSD utilizando KiCad. El objetivo es desarrollar un esquema que incorpore el conector microSD con la correcta asignación de pines para alimentación y comunicación. Posteriormente, se optimizará el diseño de la PCB para asegurar un trazado eficiente de las señales. Finalmente, se generarán los archivos Gerber necesarios para la fabricación de la PCB, fomentando habilidades en el diseño y preparación de circuitos impresos para la producción.
+
+![figura 3D de la PCB desarrollada](pcb/img/MicroSD.png)
+
 
 ## Licencia
 

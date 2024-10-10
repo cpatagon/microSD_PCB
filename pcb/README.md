@@ -14,9 +14,13 @@ En este directorio debería ir:
 
 Representación completa del circuito de la PCB microSD, mostrando todas las conexiones y componentes principales, incluyendo el buffer 74LVC125A, el regulador AMS117, y el conector de la tarjeta microSD.
 
+
 ![Esquema 1](img/esquema_microSD.png)
 **Figura 1:** Esquemático general de PCB de microSD para mas detalle ver  [link text](PDF/MicroSD.pdf)
 
+
+![huellasPCB](img/huellas_componentes_pcb.png)
+** Figura 2:** Gerber general con las principales huellas de la PCB
 
 
 ### Integrado 74LVC125A
@@ -27,6 +31,8 @@ Buffer cuádruple de tres estados con entradas tolerantes a 5V. Contiene cuatro 
 ![Esquema buffer](img/diagrama_74LVC125A.png)
 
 **Figura 2:** Diagrama lógico 74LVC125A 
+
+
 
 
 
@@ -63,6 +69,7 @@ Regulador de voltaje lineal de baja caída. Capaz de proporcionar hasta 1A de co
 Patrón de cobre en la PCB para el montaje del regulador AMS117. Muestra la disposición de los pines de entrada, salida y ajuste, así como el área de disipación térmica necesaria.
 
 ![huella buffer](img/huella_AMS1117.png)
+
 
 **Figura 5:** Huella AMS117
 
