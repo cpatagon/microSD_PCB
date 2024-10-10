@@ -22,18 +22,9 @@ Se recomienda utilizar la siguiente estructura:
   
 
 * **info**: Información recopilada de fuentes externas, como:
-  * Hojas de datos.
-  * Notas de aplicación.
-  * Información de productos comerciales.
-  * Recursos de internet.
+  * [información de fuentes externas](./info/README.md)
+
 
 * **pcb**: Archivos de diseño esquemático y de la PCB.
   * [readme diseño PCB](./pcb/README.md)
 
-
-Dependiendo de la magnitud del proyecto, habrá más o menos información en estos directorios. Revisa los README.md en cada directorio para conocer las pautas específicas para este trabajo práctico.
-
-
-
-
-**Nota:** El alumno puede eliminar o modificar cualquier parte de este archivo, incluyendo las aclaraciones del docente y esta nota.
