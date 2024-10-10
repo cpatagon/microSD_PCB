@@ -30,11 +30,6 @@ Buffer cuádruple de tres estados con entradas tolerantes a 5V. Contiene cuatro 
 
 #### Huella
 
-Los distrintos patrones de cobre para soldar los componentes en la PCB se muestran en la figura 3
-
-![link text](img/MicroSD_huellas.png)
-
-**Figura 3:** Huellas de los distintos componentes en la placa PCB de la microSD diseñada. Mas informacion visitar Gerber: [link text](Gerber/MicroSD-F_Mask.pdf)
 
 
 Patrón de cobre en la PCB para soldar el chip 74LVC125A. Muestra la disposición de los pines y el área necesaria para el montaje del componente en la placa de circuito impreso.
@@ -101,6 +96,14 @@ Plano  de la placa PCB diseñada se puede ver en la Figura 6
 ![Modelo 3D](img/MicroSD.png)
 
 **Figura 7:** Huella Modelo 3D
+
+
+Los distrintos patrones de cobre para soldar los componentes en la PCB se muestran en la figura 3
+
+![link text](img/MicroSD_huellas.png)
+
+**Figura 3:** Huellas de los distintos componentes en la placa PCB de la microSD diseñada. Mas informacion visitar Gerber: [link text](Gerber/MicroSD-F_Mask.pdf)
+
 
 ## Bibliotecas de símbolos y huellas externas (si son necesarios).
 
