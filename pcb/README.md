@@ -110,7 +110,7 @@ Los distrintos patrones de cobre para soldar los componentes en la PCB se muestr
 **Figura 3:** Huellas de los distintos componentes en la placa PCB de la microSD diseñada. Mas informacion visitar Gerber: [link text](Gerber/MicroSD-F_Mask.pdf)
 
 
-![Modelo 3D](MicroSD_B.png)
+![Modelo 3D trasera](img/MicroSD_B.png)
 
 **Figura 7:** Huella Modelo capa secundaria
 
