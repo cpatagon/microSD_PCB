@@ -34,6 +34,8 @@ Este proyecto consiste en el diseño de un adaptador PCB para tarjetas MicroSD, 
 ### 3.3 Consideraciones de Diseño
 - **Integridad de la Señal:** Trazado de pistas críticas con impedancia controlada (90 ohms diferencial para líneas de datos SD).
 - **EMI/EMC:** Implementación de planos de tierra en ambas capas para reducir interferencias.
+
+#### consideraciones futuras 
 - **Térmica:** Área de cobre ampliada alrededor del regulador AMS1117 para mejorar la disipación térmica.
 
 ## 4. Notas de Aplicación

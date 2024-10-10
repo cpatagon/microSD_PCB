@@ -114,13 +114,14 @@ Las bibliotecas personalizadas utilizadas en este proyecto se encuentran en la [
 ## 8. Consideraciones de Diseño
 - Se utilizó un enfoque de ruteo de dos capas para optimizar el espacio y reducir la interferencia electromagnética.
 - Se implementaron planos de tierra en ambas capas para mejorar el manejo de EMI.
-- Las pistas de datos se diseñaron con impedancia controlada para mantener la integridad de la señal a altas velocidades.
+- Se calculo el ancho mínimo de cada pista de acuerdo a la norma IPC 2221. Se calculo fue hecho con una corriente máxima de 1A, aumento de la temperatura de 10°C y longitud máxima de pista de 100 mm. El ancho de pista resultante fue de 0,3 mm y un grosor de 1 oz de Cu. 
 
 ## 9. Próximos Pasos
 - Fabricación de prototipos para pruebas y validación.
 - Realización de pruebas de funcionamiento a diferentes voltajes (3.3V y 5V).
 - Análisis térmico bajo carga máxima.
 - Consideración de mejoras para futuras versiones, como la integración de un controlador USB o soporte para velocidades UHS-I.
+- Las pistas de datos se diseñaran con impedancia controlada para mantener la integridad de la señal en altas velocidades.
 
 ## 10. Conclusiones
 Este diseño de PCB para adaptador MicroSD ofrece una solución compacta y versátil para la integración de almacenamiento externo en sistemas embebidos, con consideraciones especiales para la compatibilidad de voltajes y el rendimiento de alta velocidad.
