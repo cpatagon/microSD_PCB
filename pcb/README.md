@@ -89,16 +89,18 @@ Patrón de cobre en la PCB para el montaje del regulador AMS117. Muestra la disp
 
 ![huella buffer](img/huella_AMS117.png)
 
-**Figura 5:** Huella AMS117
+**Figura 5:** Huella regulador de voltaje AMS1117
 
 
 ### Conector microSD
 
-#### Huella 
+#### Diagrama microSD
+
+#### Huella microSD
 
 Patrón de cobre en la PCB para el montaje el conector microSD. Muestra la disposición de los pines de entrada, salida y ajuste.
 
-![huella_microSD](img/huella_conector_uSD_.png)
+![huella microSD](img/huella_conector_uSD_.png)
 
 **Figura 6:** Huella conector micro SD
 
