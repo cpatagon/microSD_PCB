@@ -1,152 +1,124 @@
-#  Proyecto MicroSD
+# Proyecto MicroSD: Adaptador PCB
 
-## Información del Proyecto
+## 1. Información del Proyecto
 - **Nombre del diseñador:** Luis Gómez
 - **Email:** lgomez@patagones.cl
 - **Nombre del proyecto:** PCB microSD
-- **Repositorio o drive (url):** https://github.com/cese-dci/tpf24a-cpatagon
-- **Esta revisión fue realizada por:** Luis Gómez
+- **Repositorio:** [https://github.com/cese-dci/tpf24a-cpatagon](https://github.com/cese-dci/tpf24a-cpatagon)
+- **Revisión realizada por:** Luis Gómez
 - **Fecha de la revisión:** 9/10/2024
-- **Fecha último commit:**  Wed Oct 9 19:16:56 2024 -0300
+- **Fecha último commit:** Wed Oct 9 19:16:56 2024 -0300
 - **Curso CESE - PCB:** DCI24A
 
-## Resumen del PCB
+## 2. Resumen Ejecutivo
+Este proyecto consiste en el diseño de un adaptador PCB para tarjetas MicroSD, destinado a facilitar la integración de almacenamiento externo en sistemas embebidos. El diseño se enfoca en la compatibilidad con interfaces de 3.3V y 5V, utilizando componentes SMD para minimizar el tamaño y mejorar el rendimiento.
+
+## 3. Especificaciones Técnicas del PCB
 
 | Característica | Valor |
 |----------------|-------|
 | Cantidad de capas | 2 |
 | Terminación superficial | HASL con Plomo |
-| Componentes de un lado o de ambos | Un lado |
-| Componentes SMD, TH o mixto | SMD |
-| Serigrafía de 1 o de 2 caras | 1 cara |
-| Grillas que utilizó | 0,5, 0,25 y 0,1 |
-| Valores de anchos de pistas que utilizó | 0,35 y 0,5 |
-| Vías/agujeros que utilizó | 0,7/0,3 |
-| Clearance (configurado en DRC para regla default) | Sin errores |
-| Fabricante| PCB Chile https://pcb-chile.cl/|
+| Disposición de componentes | Un lado |
+| Tecnología de componentes | SMD |
+| Serigrafía | 1 cara |
+| Grillas utilizadas | 0,5 mm, 0,25 mm, 0,1 mm |
+| Anchos de pistas | 0,35 mm y 0,5 mm |
+| Vías/agujeros | 0,7 mm / 0,3 mm |
+| Clearance (DRC default) | Sin errores |
+| Fabricante | [PCB Chile](https://pcb-chile.cl/) |
 
-## Archivos de proyecto.
+## 4. Componentes Principales
 
+### 4.1 Integrado 74LVC125A
+- **Función:** Buffer cuádruple de tres estados con entradas tolerantes a 5V.
+- **Aplicación:** Adaptación de niveles lógicos y aislamiento de señales.
+- **Diagrama:**
 
-### Gerber
+  ![Diagrama lógico 74LVC125A](img/esquematico_74LVC125.png)
+  *Figura 1: Diagrama lógico 74LVC125A*
 
-Carpeta que contiene los Gerber del proyecto
+- **Huella:**
 
-[Enlace con archivos Gerber](Gerber)
+  ![Huella 74LVC125A](img/huella_74LVC125A.png)
+  *Figura 2: Huella del integrado 74LVC125A*
 
-## Esquemático y diagramas
+### 4.2 Regulador AMS1117
+- **Función:** Regulador de voltaje lineal de baja caída.
+- **Especificaciones:** Hasta 1A de corriente de salida, comúnmente usado para regular 5V a 3.3V.
+- **Diagrama:**
 
-### Esquemático general PCB
+  ![Diagrama AMS1117](img/diagrama_AMS1117.png)
+  *Figura 3: Diagrama lógico del regulador AMS1117*
 
-Representación completa del circuito de la PCB microSD, mostrando todas las conexiones y componentes principales, incluyendo el buffer 74LVC125A, el regulador AMS117, y el conector de la tarjeta microSD.
+- **Huella:**
 
+  ![Huella AMS1117](img/huella_AMS117.png)
+  *Figura 4: Huella del regulador AMS1117*
 
-Plano  de la placa PCB diseñada se puede ver en la Figura 6 
+### 4.3 Conector MicroSD
+- **Función:** Interfaz física para la tarjeta MicroSD.
+- **Diagrama:**
 
-![Esquema 1](img/esquema_microSD.png)
+  ![Diagrama conector MicroSD](img/diagrama_conector_uSD.png)
+  *Figura 5: Diagrama del conector MicroSD*
 
-**Figura 1:** Esquemático general de PCB de microSD para mas detalle ver  [link text](PDF/MicroSD.pdf)
+- **Huella:**
 
+  ![Huella conector MicroSD](img/huella_conector_uSD_.png)
+  *Figura 6: Huella del conector MicroSD*
 
+## 5. Diseño del PCB
 
-### Integrado 74LVC125A
-#### Diagrama
+### 5.1 Esquemático General
+![Esquemático general](img/esquema_microSD.png)
+*Figura 7: Esquemático general de la PCB MicroSD*
 
-Buffer cuádruple de tres estados con entradas tolerantes a 5V. Contiene cuatro buffers independientes con salidas de tres estados, útil para adaptar niveles lógicos y aislar señales en sistemas digitales.
+Para más detalles, consulte el [PDF del esquemático completo](PDF/MicroSD.pdf).
 
-![link text](img/esquematico_74LVC125.png)
+### 5.2 Vista General del PCB
+![Vista general PCB](img/PlanoPCBcompleto.png)
+*Figura 8: Vista general de la PCB para MicroSD*
 
-**Figura 2:** Diagrama lógico 74LVC125A 
+### 5.3 Huellas de Componentes en PCB
+![Huellas de componentes](img/huellas_componentes_pcb.png)
+*Figura 9: Gerber general con las principales huellas de la PCB*
 
+## 6. Modelos 3D
 
-#### Huella
+### 6.1 Vista General 3D
+![Modelo 3D general](img/MicroSD.png)
+*Figura 10: Vista general del modelo 3D de la PCB MicroSD*
 
+### 6.2 Vista Frontal 3D
+![Vista frontal 3D](img/MicroSD_huellas.png)
+*Figura 11: Vista frontal del modelo 3D con huellas de componentes*
 
+### 6.3 Vista Trasera 3D
+![Vista trasera 3D](img/MicroSD_B.png)
+*Figura 12: Vista trasera del modelo 3D*
 
-Patrón de cobre en la PCB para soldar el chip 74LVC125A. Muestra la disposición de los pines y el área necesaria para el montaje del componente en la placa de circuito impreso.
+## 7. Archivos del Proyecto
 
-![Esquema buffer](img/huella_74LVC125A.png)
+### 7.1 Archivos Gerber
+Los archivos Gerber necesarios para la fabricación se encuentran en la [carpeta Gerber](Gerber).
 
-**Figura 3:** Huella integrado 74LVC125A 
+### 7.2 Archivos de PCB
+Los archivos de diseño de PCB se encuentran en la [carpeta PCB](MicroSD).
 
+### 7.3 Bibliotecas de Símbolos y Huellas
+Las bibliotecas personalizadas utilizadas en este proyecto se encuentran en la [carpeta Libreria](Libreria).
 
+## 8. Consideraciones de Diseño
+- Se utilizó un enfoque de ruteo de dos capas para optimizar el espacio y reducir la interferencia electromagnética.
+- Se implementaron planos de tierra en ambas capas para mejorar el manejo de EMI.
+- Las pistas de datos se diseñaron con impedancia controlada para mantener la integridad de la señal a altas velocidades.
 
-### Integrado AMS1117
-#### Diagrama  AMS1117
+## 9. Próximos Pasos
+- Fabricación de prototipos para pruebas y validación.
+- Realización de pruebas de funcionamiento a diferentes voltajes (3.3V y 5V).
+- Análisis térmico bajo carga máxima.
+- Consideración de mejoras para futuras versiones, como la integración de un controlador USB o soporte para velocidades UHS-I.
 
-Regulador de voltaje lineal de baja caída. Capaz de proporcionar hasta 1A de corriente de salida con un voltaje de salida ajustable o fijo, comúnmente usado para regular 5V a 3.3V.
-
-![esquema regulador](img/diagrama_AMS1117.png)
-
-
-**Figura 4:** Diagrama lógico regulador de voltaje  AMS117 
-
-
-
-#### Huella  AMS1117
-
-Patrón de cobre en la PCB para el montaje del regulador AMS117. Muestra la disposición de los pines de entrada, salida y ajuste, así como el área de disipación térmica necesaria.
-
-![huella buffer](img/huella_AMS117.png)
-
-**Figura 5:** Huella regulador de voltaje AMS1117
-
-
-### Conector microSD
-
-#### Diagrama microSD
-
-![huella microSD](img/diagrama_conector_uSD.png)
-
-**Figura 6:** Diagrama  conector micro SD
-
-
-#### Huella microSD
-
-Patrón de cobre en la PCB para el montaje el conector microSD. Muestra la disposición de los pines de entrada, salida y ajuste.
-
-![huella microSD](img/huella_conector_uSD_.png)
-
-**Figura 7** Huella conector micro SD
-
-
-## PCB.
-
-
-![link text](img/PlanoPCBcompleto.png)
-
-**Figura 8:** Vista general de la PCB para microSD
-
-
-![huellasPCB](img/huellas_componentes_pcb.png)
-
-** Figura 9:** Gerber general con las principales huellas de la PCB
-
-
-[Carpeta PCB](MicroSD)
-
-## Modelos  3D.
-
-![Modelo 3D](img/MicroSD.png)
-
-**Figura 10:** Vista general de  modelo 3D de la PCB microSD
-
-### Vista principal modelo 3D
-Los distrintos patrones de cobre para soldar los componentes en la PCB se muestran en la figura 3
-
-![link text](img/MicroSD_huellas.png)
-
-**Figura 11:** Vista frontal  modelo 3D. Huellas de los distintos componentes en la placa PCB de la microSD diseñada. Mas informacion visitar Gerber: [link text](Gerber/MicroSD-F_Mask.pdf)
-
-
-### Vista secundaria modelo 3D
-
-![Modelo 3D trasera](img/MicroSD_B.png)
-
-**Figura 12:** Vista trasera  modelo 3D
-
-## Bibliotecas de símbolos y huellas externas (si son necesarios).
-
-[libreria](Libreria)
-
-
+## 10. Conclusiones
+Este diseño de PCB para adaptador MicroSD ofrece una solución compacta y versátil para la integración de almacenamiento externo en sistemas embebidos, con consideraciones especiales para la compatibilidad de voltajes y el rendimiento de alta velocidad.
