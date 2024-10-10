@@ -19,7 +19,6 @@ Este trabajo se encuentra bajo la licencia de hardware abierto. GNU GENERAL PUBL
 
 ## Estructura del Trabajo Práctico Final
 
-Se recomienda utilizar la siguiente estructura:
 
 * **doc**: Información propia sobre el circuito, incluyendo:
   * [documentación del proyecto](./doc/README.md)

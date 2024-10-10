@@ -108,6 +108,23 @@ Los archivos Gerber necesarios para la fabricación se encuentran en la [carpeta
 ### 7.2 Archivos de PCB
 Los archivos de diseño de PCB se encuentran en la [carpeta PCB](MicroSD).
 
+- [Archivo PCB Kicad](MicroSD/MicroSD.kicad_pcb)
+- [Archivo Esquematico (sch) Kicad](MicroSD/MicroSD.kicad_sch)
+
+
+#### Estructura del directorio
+
+```
+└── MicroSD
+    ├── MicroSD.kicad_pcb (PCB)
+    ├── MicroSD.kicad_prl
+    ├── MicroSD.kicad_pro
+    ├── MicroSD.kicad_sch (Esquematico)
+    └── sym-lib-table
+```
+
+
+
 ### 7.3 Bibliotecas de Símbolos y Huellas
 Las bibliotecas personalizadas utilizadas en este proyecto se encuentran en la [carpeta Libreria](Libreria).
 
