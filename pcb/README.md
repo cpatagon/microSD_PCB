@@ -7,7 +7,7 @@
 - **Repositorio o drive (url):** https://github.com/cese-dci/tpf24a-cpatagon
 - **Esta revisión fue realizada por:** Luis Gómez
 - **Fecha de la revisión:** 9/10/2024
-- **Fecha último commit:**  Wed Oct 9 19:16:56 2024 -0300 Colocar la fecha y hora del ultimo "git log" por ejemplo: Wed Aug 25 11:42:38 2021 -0300
+- **Fecha último commit:**  Wed Oct 9 19:16:56 2024 -0300
 - **Curso CESE - PCB:** DCI24A
 
 ## Resumen del PCB
@@ -76,9 +76,10 @@ Patrón de cobre en la PCB para soldar el chip 74LVC125A. Muestra la disposició
 
 Regulador de voltaje lineal de baja caída. Capaz de proporcionar hasta 1A de corriente de salida con un voltaje de salida ajustable o fijo, comúnmente usado para regular 5V a 3.3V.
 
-![esquema buffer](img/esquematico_AMS117.png)
+![esquema regulador](img/diagrama_AMS1117.png)
 
-**Figura 5:** Diagrama lógico AMS117 
+
+**Figura 5:** Diagrama lógico regulador de voltaje  AMS117 
 
 
 
@@ -86,7 +87,7 @@ Regulador de voltaje lineal de baja caída. Capaz de proporcionar hasta 1A de co
 
 Patrón de cobre en la PCB para el montaje del regulador AMS117. Muestra la disposición de los pines de entrada, salida y ajuste, así como el área de disipación térmica necesaria.
 
-![huella buffer](img/huella_AMS1117.png)
+![huella buffer](img/huella_AMS117.png)
 
 **Figura 5:** Huella AMS117
 
