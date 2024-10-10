@@ -67,23 +67,23 @@ Patrón de cobre en la PCB para soldar el chip 74LVC125A. Muestra la disposició
 
 ![Esquema buffer](img/huella_74LVC125A.png)
 
-**Figura 4:** Huella integrado 74LVC125A 
+**Figura 3:** Huella integrado 74LVC125A 
 
 
 
 ### Integrado AMS1117
-#### Diagrama
+#### Diagrama  AMS1117
 
 Regulador de voltaje lineal de baja caída. Capaz de proporcionar hasta 1A de corriente de salida con un voltaje de salida ajustable o fijo, comúnmente usado para regular 5V a 3.3V.
 
 ![esquema regulador](img/diagrama_AMS1117.png)
 
 
-**Figura 5:** Diagrama lógico regulador de voltaje  AMS117 
+**Figura 4:** Diagrama lógico regulador de voltaje  AMS117 
 
 
 
-#### Huella
+#### Huella  AMS1117
 
 Patrón de cobre en la PCB para el montaje del regulador AMS117. Muestra la disposición de los pines de entrada, salida y ajuste, así como el área de disipación térmica necesaria.
 
@@ -107,44 +107,43 @@ Patrón de cobre en la PCB para el montaje el conector microSD. Muestra la dispo
 
 ![huella microSD](img/huella_conector_uSD_.png)
 
-**Figura 6:** Huella conector micro SD
+**Figura 7** Huella conector micro SD
 
 
 ## PCB.
 
 
+![link text](img/PlanoPCBcompleto.png)
+
+**Figura 8:** Vista general de la PCB para microSD
+
 
 ![huellasPCB](img/huellas_componentes_pcb.png)
-** Figura 2:** Gerber general con las principales huellas de la PCB
 
+** Figura 9:** Gerber general con las principales huellas de la PCB
 
-
-![link text](img/PlanoPCBcompleto.png)
-**Figura 6:** Plano  de la placa PCB microSD
 
 [Carpeta PCB](MicroSD)
 
 ## Modelos  3D.
 
-
 ![Modelo 3D](img/MicroSD.png)
 
-**Figura 7:** Huella Modelo 3D
+**Figura 10:** Vista general de  modelo 3D de la PCB microSD
 
-
-
-
-
+### Vista principal modelo 3D
 Los distrintos patrones de cobre para soldar los componentes en la PCB se muestran en la figura 3
 
 ![link text](img/MicroSD_huellas.png)
 
-**Figura 3:** Huellas de los distintos componentes en la placa PCB de la microSD diseñada. Mas informacion visitar Gerber: [link text](Gerber/MicroSD-F_Mask.pdf)
+**Figura 11:** Vista frontal  modelo 3D. Huellas de los distintos componentes en la placa PCB de la microSD diseñada. Mas informacion visitar Gerber: [link text](Gerber/MicroSD-F_Mask.pdf)
 
+
+### Vista secundaria modelo 3D
 
 ![Modelo 3D trasera](img/MicroSD_B.png)
 
-**Figura 7:** Huella Modelo capa secundaria
+**Figura 12:** Vista trasera  modelo 3D
 
 ## Bibliotecas de símbolos y huellas externas (si son necesarios).
 
