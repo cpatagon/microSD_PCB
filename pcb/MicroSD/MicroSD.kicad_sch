@@ -11,7 +11,7 @@
 		(company "CESE")
 		(comment 1 "autor:  Luis Gómez")
 		(comment 2 "descripción: Esquemático para lector escritor de memoria externa microSD (réplica))")
-		(comment 3 "licencia: GPL")
+		(comment 3 "licencia: GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007")
 	)
 	(lib_symbols
 		(symbol "74xx:74LVC125"
@@ -2877,8 +2877,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100 nF"
 			(at 118.11 71.1199 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
