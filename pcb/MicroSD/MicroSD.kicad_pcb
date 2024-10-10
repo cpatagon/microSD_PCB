@@ -5015,7 +5015,7 @@
 	)
 	(via
 		(at 104.03 123.07)
-		(size 0.6)
+		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 6)
@@ -5023,7 +5023,7 @@
 	)
 	(via
 		(at 123.505 122.02)
-		(size 0.6)
+		(size 0.7)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net 6)
