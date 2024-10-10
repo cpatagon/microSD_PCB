@@ -17,12 +17,9 @@ Este trabajo se encuentra bajo la licencia de hardware abierto. GNU GENERAL PUBL
 Se recomienda utilizar la siguiente estructura:
 
 * **doc**: Información propia sobre el circuito, incluyendo:
-  * Notas de ingeniería.
-  * Notas de aplicación.
-  * Estudios previos y estado del arte.
-  * Cálculos y análisis.
-  * Dibujos adicionales y fotos de prototipos.
-  * Presupuestos y cotizaciones.
+  * [documentación del proyecto](./doc/README.md)
+  * [documentación propuesta](./doc/propuesta/README.md)
+  
 
 * **info**: Información recopilada de fuentes externas, como:
   * Hojas de datos.
