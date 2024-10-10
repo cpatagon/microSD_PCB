@@ -1,8 +1,32 @@
-# Archivos Kicad ##
+#  Proyecto MicroSD
 
-En este directorio debería ir:
+## Información del Proyecto
+- **Nombre del diseñador:** Luis Gómez
+- **Email:** lgomez@patagones.cl
+- **Nombre del proyecto:** PCB microSD
+- **Repositorio o drive (url):** https://github.com/cese-dci/tpf24a-cpatagon
+- **Esta revisión fue realizada por:** Luis Gómez
+- **Fecha de la revisión:**9/10/2024
+- **Fecha último commit:**  Wed Oct 9 19:16:56 2024 -0300 Colocar la fecha y hora del ultimo "git log" por ejemplo: Wed Aug 25 11:42:38 2021 -0300
+- **Curso CESE - PCB:** DCI24A
+
+## Resumen del PCB
+
+| Característica | Valor |
+|----------------|-------|
+| Cantidad de capas | 2 |
+| Terminación superficial | HASL con Plomo |
+| Componentes de un lado o de ambos | Un lado |
+| Componentes SMD, TH o mixto | SMD |
+| Serigrafía de 1 o de 2 caras | 1 cara |
+| Grillas que utilizó | 0,5, 0,25 y 0,1 |
+| Valores de anchos de pistas que utilizó | 0,35 y 0,5 |
+| Vías/agujeros que utilizó | 0,7/0,3 |
+| Clearance (configurado en DRC para regla default) | Sin errores |
+| Fabricante| PCB Chile https://pcb-chile.cl/|
 
 ## Archivos de proyecto.
+
 
 ### Gerber
 
@@ -121,30 +145,7 @@ Los distrintos patrones de cobre para soldar los componentes en la PCB se muestr
 
 # PCB Design Checklist
 
-## Información del Proyecto
-- **Nombre del diseñador:** Luis Gómez
-- **Email:** lgomez@patagones.cl
-- **Nombre del proyecto:** PCB microSD
-- **Repositorio o drive (url):** https://github.com/cese-dci/tpf24a-cpatagon
-- **Esta revisión fue realizada por:** Luis Gómez
-- **Fecha de la revisión:**9/10/2024
-- **Fecha último commit:**  Wed Oct 9 19:16:56 2024 -0300 Colocar la fecha y hora del ultimo "git log" por ejemplo: Wed Aug 25 11:42:38 2021 -0300
-- **Curso CESE - PCB:** DCI24A
 
-## Resumen del PCB
-
-| Característica | Valor |
-|----------------|-------|
-| Cantidad de capas | 2 |
-| Terminación superficial | HASL con Plomo |
-| Componentes de un lado o de ambos | Un lado |
-| Componentes SMD, TH o mixto | SMD |
-| Serigrafía de 1 o de 2 caras | 1 cara |
-| Grillas que utilizó | 0,5, 0,25 y 0,1 |
-| Valores de anchos de pistas que utilizó | 0,35 y 0,5 |
-| Vías/agujeros que utilizó | 0,7/0,3 |
-| Clearance (configurado en DRC para regla default) | Sin errores |
-| Fabricante| PCB Chile https://pcb-chile.cl/|
 
 ## Documentación y Organización
 | PASA | Ítem | Comentarios | Se pide en la asignatura? |
