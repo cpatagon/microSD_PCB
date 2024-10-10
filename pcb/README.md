@@ -17,6 +17,13 @@ Carpeta que contiene los Gerber del proyecto
 Representación completa del circuito de la PCB microSD, mostrando todas las conexiones y componentes principales, incluyendo el buffer 74LVC125A, el regulador AMS117, y el conector de la tarjeta microSD.
 
 
+Plano  de la placa PCB diseñada se puede ver en la Figura 6 
+
+![Esquema 1](img/esquema_microSD.png)
+
+**Figura 1:** Esquemático general de PCB de microSD para mas detalle ver  [link text](PDF/MicroSD.pdf)
+
+
 
 ### Integrado 74LVC125A
 #### Diagrama
@@ -73,11 +80,6 @@ Patrón de cobre en la PCB para el montaje el conector microSD. Muestra la dispo
 
 ## PCB.
 
-Plano  de la placa PCB diseñada se puede ver en la Figura 6 
-
-![Esquema 1](img/esquema_microSD.png)
-
-**Figura 1:** Esquemático general de PCB de microSD para mas detalle ver  [link text](PDF/MicroSD.pdf)
 
 
 ![huellasPCB](img/huellas_componentes_pcb.png)
@@ -98,12 +100,19 @@ Plano  de la placa PCB diseñada se puede ver en la Figura 6
 **Figura 7:** Huella Modelo 3D
 
 
+
+
+
 Los distrintos patrones de cobre para soldar los componentes en la PCB se muestran en la figura 3
 
 ![link text](img/MicroSD_huellas.png)
 
 **Figura 3:** Huellas de los distintos componentes en la placa PCB de la microSD diseñada. Mas informacion visitar Gerber: [link text](Gerber/MicroSD-F_Mask.pdf)
 
+
+![Modelo 3D](MicroSD_B.png)
+
+**Figura 7:** Huella Modelo capa secundaria
 
 ## Bibliotecas de símbolos y huellas externas (si son necesarios).
 
