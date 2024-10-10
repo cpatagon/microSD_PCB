@@ -96,6 +96,11 @@ Patrón de cobre en la PCB para el montaje del regulador AMS117. Muestra la disp
 
 #### Diagrama microSD
 
+![huella microSD](img/diagrama_conector_uSD.png)
+
+**Figura 6:** Diagrama  conector micro SD
+
+
 #### Huella microSD
 
 Patrón de cobre en la PCB para el montaje el conector microSD. Muestra la disposición de los pines de entrada, salida y ajuste.
